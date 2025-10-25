@@ -1,31 +1,12 @@
 {
-  "operation": "SUBTRACT",
-  "input": [
+  "operation": [
     {
-      "operation": "DIVIDE",
-      "input": [
-        {
-          "operation": "CONSTANT",
-          "value": 15
-        },
-        {
-          "operation": "CONSTANT",
-          "value": 3
-        }
-      ]
-    },
-    {
-      "operation": "MULTIPLY",
-      "input": [
-        {
-          "operation": "CONSTANT",
-          "value": 5
-        },
-        {
-          "operation": "CONSTANT",
-          "value": 3
-        }
-      ]
+      "id": 1,
+      "name": "whatever info you need"
     }
+  ],
+  "input": [
+    { "id": 1, "value": 121113 },
+    { "id": 2, "value": 456 }
   ]
 }
