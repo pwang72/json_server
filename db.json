@@ -1,14 +1,31 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  "operation": "SUBTRACT",
+  "input": [
+    {
+      "operation": "DIVIDE",
+      "input": [
+        {
+          "operation": "CONSTANT",
+          "value": 15
+        },
+        {
+          "operation": "CONSTANT",
+          "value": 3
+        }
+      ]
+    },
+    {
+      "operation": "MULTIPLY",
+      "input": [
+        {
+          "operation": "CONSTANT",
+          "value": 5
+        },
+        {
+          "operation": "CONSTANT",
+          "value": 3
+        }
+      ]
+    }
+  ]
 }
